@@ -1,0 +1,35 @@
+header.global-header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:85px;
+    display:flex;
+    align-items: center;
+    flex-flow:row nowrap;
+    box-shadow:0px 0px 10px 2px gray;
+    background-color:white;
+    z-index:100;
+
+    .title{
+        font-weight:normal;
+        flex:1;
+        margin-left:10%;
+        font-size:2rem;
+        @media screen and (max-width: 800px){
+            font-size:1rem
+        }
+    }
+    .image-wrapper{
+        height:100%;
+        overflow:hidden;
+        margin-left:6px;
+        img{
+            height:90%;
+            width:auto;
+        }
+    }
+}
+.header-offset{
+    height:85px;
+}

@@ -1,0 +1,26 @@
+.home-nav{
+    ul{
+        list-style:none;
+        padding-left:0;
+        margin: 1rem;
+        display:flex; 
+        align-items:flex-end;
+        li{
+            flex:1 1 0%;
+            text-align:center;
+
+            // @media screen and (max-width:800px){
+
+            // border-bottom: 2px solid lightgray;
+            // }
+
+            a{
+                // margin: .75rem 3px;
+                // padding: .25rem;
+                display:inline-block;
+                color:gray;
+                text-decoration: none;
+            }
+        }
+    }
+}
