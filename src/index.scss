@@ -13,10 +13,11 @@ code {
     monospace;
 }
 
-label, input{
+label{
   display:block;
 }
-input{
+input[type="text"], input[type="password"]{
+  display:block;
     line-height: 2;
     box-shadow: none;
     max-width: 100%;
@@ -26,6 +27,16 @@ input{
     border-radius: 5px;
     margin:5px 0 10px;
 
+}
+button{
+    padding: 1rem;
+    border-radius: 3px;
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    font-size: 1rem;
+  }
+legend{
+  font-size:1.25rem;
 }
 fieldset{
   border:none;

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import roadPic from '../../images/carblurryroad-comp.jpg';
+import roadPic from '../../images/car-repair.jpg';
 import Hero from '../../components/hero';
 import HomeNav from '../../components/home-nav';
 class Home extends Component {

@@ -8,16 +8,15 @@ class Login extends Component {
                     <form className="volunteer-form" noValidate>
                         <legend> Login</legend>
                         <fieldset>
-                            {/* <div className = "row"> */}
-                            <div className="col-12">
-                                <label htmlFor="first_name_id">First Name</label>
-                                <input id="first_name_id" type="text" />
-                                {/* </div> */}
-                                {/* <div className="col-12"> */}
-                                <label htmlFor="last_name_id">Last Name</label>
-                                <input id="last_name_id" type="text" />
-                                {/* </div> */}
-                            </div>
+                                <label htmlFor="email_address_id">Email Address</label>
+                                <input id="email_address_id" type="text" />
+                                <label htmlFor="password_id">Password</label>
+                                <input id="password_id" type="password" />
+                                <label htmlFor="show_password_id">
+                                    <input id="show_password_id" type="checkbox" />
+                                    <span>Show Password</span>
+                                </label>
+
                         </fieldset>
                         <button type="submit">Let's go!</button>
                     </form>
